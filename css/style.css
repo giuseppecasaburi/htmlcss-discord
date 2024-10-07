@@ -112,3 +112,12 @@ h1 {
     width: 150px;
 }
 
+section:nth-child(even) {
+    background-color: lightgray;
+}
+
+section:nth-child(even) .row {
+    flex-direction: row-reverse;    
+}
+
+
