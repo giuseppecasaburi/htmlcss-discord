@@ -23,7 +23,7 @@ ul {
     list-style: none;
 }
 
-li a {
+a {
     color: inherit;
     text-decoration: none;
 }
@@ -38,6 +38,10 @@ li a {
 
 .bg-black {
     background-color: black;
+}
+
+.bg-foot {
+    background-color: #23272a;
 }
 
 /* LAYOUT */
@@ -82,6 +86,11 @@ li a {
     text-align: center;
     width: auto;
     padding: 8px;
+}
+
+.bt-sky {
+    background-color:#7289da;
+    color: white;
 }
 
 #header-bottom {
@@ -135,7 +144,7 @@ section:nth-child(even) .row {
 }
 
 .foot-top {
-    background-color: black;
+    background-color: #23272a;
     color: white;
 }
 
@@ -156,7 +165,37 @@ section.foot-top li {
 }
 
 .li-title {
-    display: inline;
+    display: flex;
     padding-bottom: 15px;
-    color: #4f6195;
+    color: #465279;
+}
+
+.border-top {
+    border-top: 1px solid #465279;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+#footer {
+    flex-direction: row;
+    background-color: #23272a;
+}
+.footer-esc {
+    display: flex;
+    background-color: #23272a;
+    flex-direction: row;
+}
+
+.margin {
+    padding: 10px 0;
+}
+
+.ita {
+    width: 25px;
+    height: 15px;
 }

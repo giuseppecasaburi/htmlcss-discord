@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
     <title>Discord</title>
 </head>
@@ -49,7 +52,7 @@
                     semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più
                     facile chiacchierare ogni giorno e ritrovarsi più spesso.
                 </p>
-                <div class="button bg-white bt-bottom">Scarica per Mac</div>
+                <div class="button bg-white bt-bottom"><i class="fa-solid fa-arrow-down-long"></i> Scarica per Mac</div>
                 <div class="button bg-black bt-bottom">Apri Discord nell tuo browser</div>
             </div>
         </section>
@@ -118,7 +121,7 @@
                 <h3>
                     Pronto a iniziare la tua avventura?
                 </h3>
-                <div class="button bg-white bg-last">Scarica per Mac</div>
+                <div class="button bt-sky bg-last"><i class="fa-solid fa-arrow-down-long"></i> Scarica per Mac</div>
             </div>
         </section>
         <!-- /SECTION BIG -->
@@ -132,58 +135,61 @@
             <div class="container">
                 <ul class="row-foot padding-foot">
                     <li class="col-20">
-                        <span class="li-title">Il tuo posto per parlare</span>
-                        <img src="img/ita.png" alt="Bandiera Italia"> Italiano
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-youtube"></i>
+                        <h2 class="li-title">Il tuo posto per parlare</h2>
+                        <img src="img/ita.png" alt="Bandiera Italia" class="ita"> Italiano <i
+                            class="fa-solid fa-chevron-down"></i>
+                        <div class="icon">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
                     </li>
                     <li class="col-80">
                         <ul class="row-foot space">
                             <li>
                                 <span class="li-title">Prodotto</span>
                                 <ul>
-                                    <li>Scarica</li>
-                                    <li>Perchè Discord</li>
-                                    <li>Nitro</li>
-                                    <li>Sicurezza</li>
-                                    <li>Assistenza</li>
+                                    <li><a href="">Scarica</a></li>
+                                    <li><a href="">Perchè Discord</a></li>
+                                    <li><a href="">Nitro</a></li>
+                                    <li><a href="">Sicurezza</a></li>
+                                    <li><a href="">Assistenza</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <span class="li-title">Compagnia</span>
                                 <ul>
-                                    <li>Chi siamo</li>
-                                    <li>Lavora con noi</li>
-                                    <li>Marchio</li>
-                                    <li>Redazione</li>
-                                    <li>Negozio</li>
+                                    <li><a href="">Chi siamo</a></li>
+                                    <li><a href="">Lavora con noi</a></li>
+                                    <li><a href="">Marchio</a></li>
+                                    <li><a href="">Redazione</a></li>
+                                    <li><a href="">Negozio</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <span class="li-title">Risorse</span>
                                 <ul>
-                                    <li>Scarica</li>
-                                    <li>Perchè Discord</li>
-                                    <li>Nitro</li>
-                                    <li>Sicurezza</li>
-                                    <li>Assistenza</li>
-                                    <li>Scarica</li>
-                                    <li>Perche Discord</li>
-                                    <li>Nitro</li>
-                                    <li>Sicurezza</li>
-                                    <li>Assistenza</li>
+                                    <li><a href="">Scarica</a></li>
+                                    <li><a href="">Perchè Discord</a></li>
+                                    <li><a href="">Nitro</a></li>
+                                    <li><a href="">Sicurezza</a></li>
+                                    <li><a href="">Assistenza</a></li>
+                                    <li><a href="">Scarica</a></li>
+                                    <li><a href="">Perche Discord</a></li>
+                                    <li><a href="">Nitro</a></li>
+                                    <li><a href="">Sicurezza</a></li>
+                                    <li><a href="">Assistenza</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <span class="li-title">Norme</span>
                                 <ul>
-                                    <li>Scarica</li>
-                                    <li>Perchè Discord</li>
-                                    <li>Nitro</li>
-                                    <li>Sicurezza</li>
-                                    <li>Assistenza</li>
+                                    <li><a href="">Scarica</a></li>
+                                    <li><a href="">Perchè Discord</a></li>
+                                    <li><a href="">Nitro</a></li>
+                                    <li><a href="">Sicurezza</a></li>
+                                    <li><a href="">Assistenza</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -192,9 +198,18 @@
             </div>
         </section>
         <!-- /FOOTER TOP -->
-        <hr>
+
         <!-- FOOTER BOTTOM -->
-        <section></section>
+        <section id="footer" class="foot-bot bg-foot footer-esc">
+            <div class="container row space border-top margin">
+                <div>
+                    <img src="img/logo.svg" alt="Logo discord">
+                </div>
+                <div class="button bt-sky ">
+                    <a href="">Registrati</a>
+                </div>
+            </div>
+        </section>
         <!-- /FOOTER BOTTOM -->
     </footer>
     <!-- /FOOTER -->
