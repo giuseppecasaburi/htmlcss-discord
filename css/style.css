@@ -71,6 +71,10 @@ li a {
     width: 60%;
 }
 
+.col-80 {
+    width: 80%;
+}
+
 .button {
     border: 1px solid transparent;
     border-radius: 15px;
@@ -82,7 +86,6 @@ li a {
 
 #header-bottom {
     background-image: url(../img/jumbo.png);
-    background-position: ;
     background-size: cover;
     color: white;
 
@@ -120,4 +123,40 @@ section:nth-child(even) .row {
     flex-direction: row-reverse;    
 }
 
+.big {
+    text-align: center;
+}
 
+.bg-last {
+    display: flex;
+    width: auto;
+    margin: 50px;
+    justify-content: center;
+}
+
+.foot-top {
+    background-color: black;
+    color: white;
+}
+
+.row-foot{
+    display: flex;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+.padding-foot {
+    padding: 50px 0 10px;
+}
+
+section.foot-top li {
+    margin-bottom: 15px;
+}
+
+.li-title {
+    display: inline;
+    padding-bottom: 15px;
+    color: #4f6195;
+}
